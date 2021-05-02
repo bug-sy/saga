@@ -5,7 +5,7 @@ function App() {
   return (
     <Container>
 
-      <Header as = "h1">Budget</Header>
+      <Header as="h1">Budget</Header>
 
       <Statistic size="small">
         <Statistic.Label>
@@ -21,7 +21,7 @@ function App() {
           <Grid.Row>
             <Grid.Column>
               <Statistic size="tiny" color="green">
-                <Statistic.Label style={{textAlign:"left"}}>
+                <Statistic.Label style={{ textAlign: "left" }}>
                   Income :
                 </Statistic.Label>
                 <Statistic.Value>
@@ -31,16 +31,16 @@ function App() {
 
             </Grid.Column>
             <Grid.Column>
-              
-            <Statistic size="tiny" color="red">
-                <Statistic.Label style={{textAlign:"left"}}>
-            Expenses:
+
+              <Statistic size="tiny" color="red">
+                <Statistic.Label style={{ textAlign: "left" }}>
+                  Expenses:
                 </Statistic.Label>
                 <Statistic.Value>
                   600.00
                 </Statistic.Value>
               </Statistic>
-              </Grid.Column> 
+            </Grid.Column>
           </Grid.Row>
         </Grid>
       </Segment>
@@ -59,8 +59,8 @@ function App() {
               $10.00
             </Grid.Column>
             <Grid.Column width={3}>
-              <Icon name="edit" bordered/>
-              <Icon name="trash" bordered/>
+              <Icon name="edit" bordered />
+              <Icon name="trash" bordered />
             </Grid.Column>
           </Grid.Row>
         </Grid>
@@ -76,8 +76,8 @@ function App() {
               $5.00
             </Grid.Column>
             <Grid.Column width={3}>
-              <Icon name="edit" bordered/>
-              <Icon name="trash" bordered/>
+              <Icon name="edit" bordered />
+              <Icon name="trash" bordered />
             </Grid.Column>
           </Grid.Row>
         </Grid>
@@ -93,44 +93,44 @@ function App() {
               $50.00
             </Grid.Column>
             <Grid.Column width={3}>
-              <Icon name="edit" bordered/>
-              <Icon name="trash" bordered/>
+              <Icon name="edit" bordered />
+              <Icon name="trash" bordered />
             </Grid.Column>
           </Grid.Row>
         </Grid>
       </Segment>
 
 
-<Header as="h3">
-  Add new transaction
+      <Header as="h3">
+        Add new transaction
   </Header>
-  <Form unstackable>
-    <Form.Group>
-      <Form.Input placeholder="New Shiny thing"
-      icon="tags"
-      width={12}
-      label="Descriptin"
-      
-      />
-      <Form.Input
-      width={4}
-label="Value"
-placeholder="100.00"
-icon="dollar"
-iconPosition="left"
-/>
+      <Form unstackable>
+        <Form.Group>
+          <Form.Input placeholder="New Shiny thing"
+            icon="tags"
+            width={12}
+            label="Descriptin"
 
-    </Form.Group>
-    <Button.Group style={{marginTop:20}}>
-      <Button>
-        Cancel
+          />
+          <Form.Input
+            width={4}
+            label="Value"
+            placeholder="100.00"
+            icon="dollar"
+            iconPosition="left"
+          />
+
+        </Form.Group>
+        <Button.Group style={{ marginTop: 20 }}>
+          <Button>
+            Cancel
       </Button>
-      <Button.Or/>
-      <Button primary>
-        Okay
+          <Button.Or />
+          <Button primary>
+            Okay
       </Button>
-    </Button.Group>
-  </Form>
+        </Button.Group>
+      </Form>
     </Container>
   );
 
