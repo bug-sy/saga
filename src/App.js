@@ -12,7 +12,6 @@ function App() {
       <MainHeader
         title="Budget"
       />
-
       <DisplayBalance title="Your Balance" value="2550.544" color="green" size="small" />
       <DisplayBalances />
       <MainHeader title="History" type="h3" />
