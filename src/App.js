@@ -1,4 +1,4 @@
-import { Container, Grid, Header, Icon, Segment, Statistic } from 'semantic-ui-react';
+import { Button, Container, Form, Grid, Header, Icon, Segment, Statistic } from 'semantic-ui-react';
 import './App.css';
 
 function App() {
@@ -100,6 +100,36 @@ function App() {
         </Grid>
       </Segment>
 
+
+<Header as="h3">
+  Add new transaction
+  </Header>
+  <Form unstackable>
+    <Form.Group>
+      <Form.Input placeholder="New Shiny thing"
+      icon="tags"
+      width={12}
+      label="Descriptin"
+      
+      />
+      <Form.Input
+      width={4}
+label="Value"
+placeholder="100.00"
+icon="dollar"
+iconPosition="left"
+/>
+    </Form.Group>
+    <Button.Group style={{marginTop:20}}>
+      <Button>
+        Cancel
+      </Button>
+      <Button.Or/>
+      <Button primary>
+        Okay
+      </Button>
+    </Button.Group>
+  </Form>
     </Container>
   );
 
