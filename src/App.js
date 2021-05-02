@@ -1,6 +1,5 @@
-import { Button, Container, Form, Grid, Header, Icon, Segment, Statistic } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import './App.css';
-import ButtonSaveOrCancel from './components/ButtonSaveOrCancel';
 import DisplayBalance from './components/DisplayBalance';
 import DisplayBalances from './components/DisplayBalances';
 import EntryLine from './components/EntryLine';
@@ -15,12 +14,8 @@ function App() {
       />
 
       <DisplayBalance title="Your Balance" value="2550.544" color="green" size="small" />
-
-
       <DisplayBalances />
       <MainHeader title="History" type="h3" />
-
-
       <EntryLine description="income" value="10.00" />
       <EntryLine description="expense" value="10.00" isExpense />
       <EntryLine description="income" value="10.00" />
