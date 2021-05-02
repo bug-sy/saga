@@ -25,9 +25,6 @@ function App() {
       <EntryLine description="expense" value="10.00" isExpense />
       <EntryLine description="income" value="10.00" />
       <EntryLine description="expense" value="10.00" isExpense />
-
-
-
       <MainHeader title="Add new transaction" type="h3" />
       <NewEntryForm />
     </Container>
