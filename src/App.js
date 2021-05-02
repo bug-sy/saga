@@ -17,7 +17,7 @@ function App() {
       <MainHeader title="History" type="h3" />
       <EntryLine description="income" value="10.00" />
       <EntryLine description="expense" value="10.00" isExpense />
-      <EntryLine description="income" value="10.00" />
+      <EntryLine description="income" value="20.00" />
       <EntryLine description="expense" value="10.00" isExpense />
       <MainHeader title="Add new transaction" type="h3" />
       <NewEntryForm />
