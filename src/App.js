@@ -119,6 +119,7 @@ placeholder="100.00"
 icon="dollar"
 iconPosition="left"
 />
+
     </Form.Group>
     <Button.Group style={{marginTop:20}}>
       <Button>
