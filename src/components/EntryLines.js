@@ -1,7 +1,7 @@
 import React from 'react'
 import EntryLine from './EntryLine'
 
-function EntryLines({entries, deleteEntry}) {
+function EntryLines({entries, deleteEntry,setIsOpen,editEntry}) {
     return (
         <div>
        {entries.map((entry,index) =>{
@@ -9,6 +9,8 @@ function EntryLines({entries, deleteEntry}) {
      key={entries.id}
      {...entry}
      deleteEntry={deleteEntry}
+     setIsOpen={setIsOpen}
+     editEntry={editEntry}
      />
 
       })}
